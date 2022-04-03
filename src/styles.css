@@ -55,7 +55,7 @@ button.hamburger {
   -webkit-tap-highlight-color: transparent;
 }
 button.hamburger:active {
-  border: none;
+  outline: none;
 }
 
 .profile {
@@ -97,7 +97,7 @@ nav {
 }
 
 .close-nav.hamburger:active {
-  border: none;
+  outline: none;
 }
 
 nav ul {
