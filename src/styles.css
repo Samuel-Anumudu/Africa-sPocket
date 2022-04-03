@@ -54,9 +54,12 @@ button.hamburger {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
+button.hamburger:active {
+  border: none;
+}
 
 .profile {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: var(--primary-color);
   cursor: pointer;
   user-select: none;
@@ -65,7 +68,7 @@ button.hamburger {
 
 .logo img {
   display: block;
-  width: 150px;
+  width: 200px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -91,6 +94,10 @@ nav {
   border: 2px solid var(--primary-color);
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+}
+
+.close-nav.hamburger:active {
+  border: none;
 }
 
 nav ul {
@@ -314,7 +321,7 @@ main {
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   z-index: 100;
   width: 200px;
-  left: 42%;
+  left: 47%;
   top: 12%;
   border-radius: 5px;
   animation: showLogout 0.3s;
