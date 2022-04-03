@@ -348,10 +348,10 @@ main {
   content: '';
   position: absolute;
   background-color: var(--white);
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   transform: rotate(45deg);
-  top: -11px;
+  top: -9px;
   right: calc(2.5vw - 1px);
   border-radius: 0 0 12px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
